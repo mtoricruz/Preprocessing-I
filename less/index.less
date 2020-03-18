@@ -61,6 +61,14 @@ html, body {
 
 @textfont:'Playfair Display', serif;
 @color:rgba(160, 160, 160, 0.63);
+.contactmixin {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.widthhalf{
+	width:50%;
+}
 
 /* Nav Style code goes here */
 	nav{
@@ -116,7 +124,7 @@ html, body {
 		.anscontainer{
 			display: flex;
 			.about{
-				width: 50%;
+				.widthhalf();
 				justify-content: center;
 				h2{
 					font-size: x-large;
@@ -129,7 +137,7 @@ html, body {
 				}
 			}
 			.skills{
-				width: 50%;
+				.widthhalf();
 				justify-content: left;
 				h3{
 					font-size: large;
@@ -172,9 +180,7 @@ html, body {
 /* contact code goes here */
 	#contact{
 		.contactcont{
-			display: flex;
-			align-items: center;
-			justify-content: center;
+			.contactmixin();
 			.contactlinks{
 				width: 400%;
 				text-align: center;

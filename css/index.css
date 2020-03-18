@@ -135,6 +135,14 @@ body {
   height: 100%;
   width: 100%;
 }
+.contactmixin {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.widthhalf {
+  width: 50%;
+}
 /* Nav Style code goes here */
 nav {
   display: flex;
