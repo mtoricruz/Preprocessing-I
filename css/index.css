@@ -89,6 +89,7 @@ video {
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
+  border: 1px solid grey;
 }
 /* HTML5 display-role reset for older browsers */
 article,
@@ -133,4 +134,18 @@ table {
 html,
 body {
   height: 100%;
+  width: 100%;
 }
+/* Nav Style code goes here */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1% 0;
+}
+nav a {
+  margin-right: 2%;
+}
+/* Header Style code goes here*/
+/* aboutandskills code goes here */
+/* workhistory code goes here */
+/* contact code goes here */
