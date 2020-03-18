@@ -154,6 +154,17 @@ nav a {
   text-decoration: none;
   color: black;
 }
+@media (max-width: 500px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  nav a {
+    padding-top: 3%;
+    font-size: xx-large;
+    border-bottom: 1px solid;
+  }
+}
 /* Header Style code goes here*/
 .headercontainer {
   display: flex;
@@ -190,6 +201,29 @@ nav a {
   border: 1px solid grey;
   background: grey;
   margin-top: 1%;
+}
+@media (max-width: 500px) {
+  .headercontainer img {
+    max-width: 100%;
+  }
+  .headercontainer h1 {
+    font-size: x-large;
+    padding: 2% 0;
+  }
+  .headercontainer hr {
+    margin: 2% 0;
+  }
+  .headercontainer p {
+    font-size: 1.4rem;
+    width: 100%;
+    text-align: center;
+  }
+  .headercontainer button {
+    text-align: center;
+    padding: 4% 12%;
+    width: 100%;
+    margin: 5% 0;
+  }
 }
 /* aboutandskills code goes here */
 #aboutandskills .anscontainer {
