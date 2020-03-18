@@ -59,6 +59,14 @@ html, body {
 	width: 100%;
 }
 
+@textfont:'Playfair Display', serif;
+
+/* General Style code goes here */
+h1{
+	font-size: xxx-large;
+	font-family: @textfont;
+}
+
 /* Nav Style code goes here */
 	nav{
 		display:flex;
@@ -69,7 +77,17 @@ html, body {
 		}
 	}
 /* Header Style code goes here*/
-	
+	.headercontainer{
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		background-color: rgba(160, 160, 160, 0.63);
+		padding:3%;
+		margin:2% 3%;
+		img{
+			max-width: 20%;
+		}
+	}
 /* aboutandskills code goes here */
 
 /* workhistory code goes here */
