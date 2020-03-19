@@ -186,6 +186,13 @@ html, body {
 				}
 				padding:1% 4%;
 			}
+			@media (max-width:500px){
+				flex-direction: column;
+				text-align: center;
+				.aboutandskills{
+					width: 180%;
+				}
+			}
 		}
 	}
 
@@ -206,6 +213,12 @@ html, body {
 		}
 		h2{
 			font-size: x-large;
+		}
+		@media (max-width:500px){
+			h2{
+				text-align: center;
+				padding-bottom: 2%;
+			}
 		}
 	}
 
@@ -233,6 +246,19 @@ html, body {
 			}
 			.contactimage{
 				text-align: center;
+			}
+			@media (max-width:500px){
+				flex-direction: column;
+				img{
+					max-width: 50%;
+				}
+				.contactlinks{
+					font-size: large;
+					p{
+						padding-bottom: 2%;
+					}
+				}
+
 			}
 		}
 		img{

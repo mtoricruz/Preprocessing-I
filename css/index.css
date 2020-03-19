@@ -260,6 +260,15 @@ nav a {
   padding: 3%;
   border: 0.5px solid grey;
 }
+@media (max-width: 500px) {
+  #aboutandskills .anscontainer {
+    flex-direction: column;
+    text-align: center;
+  }
+  #aboutandskills .anscontainer .aboutandskills {
+    width: 180%;
+  }
+}
 /* workhistory code goes here */
 #workhistory {
   margin: 1.5rem 3%;
@@ -276,6 +285,12 @@ nav a {
 }
 #workhistory h2 {
   font-size: x-large;
+}
+@media (max-width: 500px) {
+  #workhistory h2 {
+    text-align: center;
+    padding-bottom: 2%;
+  }
 }
 /* contact code goes here */
 #contact .contactcont {
@@ -303,6 +318,20 @@ nav a {
 }
 #contact .contactcont .contactimage {
   text-align: center;
+}
+@media (max-width: 500px) {
+  #contact .contactcont {
+    flex-direction: column;
+  }
+  #contact .contactcont img {
+    max-width: 50%;
+  }
+  #contact .contactcont .contactlinks {
+    font-size: large;
+  }
+  #contact .contactcont .contactlinks p {
+    padding-bottom: 2%;
+  }
 }
 #contact img {
   max-width: 30%;
